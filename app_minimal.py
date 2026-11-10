@@ -23,7 +23,7 @@ if uploaded is not None:
     left, right = st.columns(2)
     left.image(image, caption="원본 이미지", width="stretch")
 
-    if st.button("탐지 시작")
+    if st.button("탐지 시작"):
         if not MODEL_PATH.exists():
             st.error("터미널에서 python prepare_model.py를 먼저 실행하세요.")
             st.stop()
