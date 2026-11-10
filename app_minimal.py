@@ -15,7 +15,7 @@ def load_model():
 
 st.set_page_config(page_title="AI 이미지 객체 탐지", layout="wide")
 st.title("AI 이미지 객체 탐지")
-st.write("이미지를 올리고 탐지 시작을 누르세요.")
+st.write("이미지를 선택한 뒤 탐지 시작을 눌러 결과를 확인하세요.")
 uploaded = st.file_uploader("이미지 선택", type=["jpg", "jpeg", "png"])
 
 if uploaded is not None:
