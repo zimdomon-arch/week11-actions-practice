@@ -1,0 +1,19 @@
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+
+# Generated files and model weights
+__pycache__/
+*.py[cod]
+models/
+outputs/
+*.pt
+
+# Credentials and local settings
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+.vscode/
